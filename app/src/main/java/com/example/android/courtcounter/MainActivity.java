@@ -60,4 +60,12 @@ public class MainActivity extends AppCompatActivity {
         this.scoreTeamB += 1;
         displayForTeamB(this.scoreTeamB);
     }
+
+    public void resetScores(View v){
+        this.scoreTeamA = 0;
+        displayForTeamA(this.scoreTeamA);
+
+        this.scoreTeamB = 0;
+        displayForTeamB(this.scoreTeamB);
+    }
 }
